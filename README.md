@@ -5,7 +5,7 @@ The system is built around three main blocks:
 
 Analog acquisition chain: microphone pre-amplification, band-pass filtering, and analog signal conditioning for ADC acquisition in low-SNR environments
 
-Audio communication: binary FSK demodulation with chirp-based preamble detection and adaptive thresholding for robust synchronization
+Audio communication: binary FSK demodulation with chirp-based preamble detection and adaptive thresholding for robust synchronization. Commands are encoded as audio frames containing the command type and an amplitude field representing either a distance (0–255 cm) or a rotation angle (0–255°), with parity-based error detection.
 
 Motion control: closed-loop polar regulation using wheel encoders, trapezoidal velocity profiles, and PWM motor control for accurate translation and rotation
 
