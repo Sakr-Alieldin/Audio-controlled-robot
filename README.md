@@ -9,5 +9,5 @@ Audio communication: binary FSK demodulation with chirp-based preamble detection
 
 Motion control: closed-loop polar regulation using wheel encoders, trapezoidal velocity profiles, and PWM motor control for accurate translation and rotation
 
-The robot reliably executes movement commands in noisy environments, achieving < 4% positioning error and robust operation up to ~2 m (and beyond in ideal conditions).
+The robot reliably executes movement commands in noisy environments, achieving < 4% positioning error. Robust operation up to ~1.6m in noisy indoor environments, with successful command reception beyond 2m in ideal environments.
 This project combines analog electronics, digital signal processing, embedded programming, and control systems into a fully functional prototype.
